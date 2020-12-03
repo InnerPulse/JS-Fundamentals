@@ -5,7 +5,7 @@
   </a>
 <p>
   
-<h1 align="center">For the semester</h1>
+<h1 align="center">For this semester</h1>
 
 
 <p><i>With "Fundamentals of Programming" students begin to study SoftUni's internal program for comprehensive training of software engineers. The course examines fundamental concepts in programming, which are the basis for creating and quality training in professional modules. The students upgrade their knowledge gained during the module "Programming Basics" and starts using more complex programming techniques and structures such as: arrays, lists, objects and classes, dictionaries, strings and bitwise operations.
