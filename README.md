@@ -18,4 +18,4 @@ Basic software technologies, concepts and tools needed by each software develope
 - Every solution is 100/100 in the university's judge sistem, meaning they were all correct.
 - The difficulties in the different assignments is increasing with the first being easiest and the last being hardest or with other words in ascending order.
 - In a subfolder in every solution's folder, there is the problem needed to be solved as a text file.
-- This is simple solutions done with the knowledge I have accumulate so far. 
+- These are simple solutions done with the knowledge I have accumulate so far and of course they can go under further optimization.
