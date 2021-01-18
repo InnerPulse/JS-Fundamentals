@@ -18,7 +18,6 @@ function heroesOfCode(input) {
       damege = +damage;
       hero.hp -= damage;
       if (hero.hp > 0) {
-        // let hero = heroes[name]
         console.log(`${name} was hit for ${damage} HP by ${source} and now has ${hero.hp} HP left!`);// ?? 
       } else {
         console.log(`${name} has been killed by ${source}!`);
