@@ -1,4 +1,4 @@
-<h1 align="center"> JS Fundamentals - September 2020 <h1>
+<h1 align="center"> JavaScript Fundamentals - September 2020 <h1>
 <p align="center">
   <a href="https://softuni.bg/trainings/3133/js-fundamentals-september-2020">
     <img src="https://i.imgur.com/arAr8gZ.png" />
@@ -15,7 +15,7 @@ Basic software technologies, concepts and tools needed by each software develope
 
 <h3 align="center">About the presented solutions...</h3>
 
-- Every solution is 100/100 in the university's judge sistem, meaning they were all correct.
+- Every solution is 100/100 in the university's judge/test sistem, meaning they were all correct.
 - The difficulties in the different assignments is increasing with the first being easiest and the last being hardest or with other words in ascending order.
 - In a subfolder in every solution's folder, there is the problem needed to be solved as a text file.
 - These are simple solutions done with the knowledge I have accumulate so far and of course they can go under further optimization.
