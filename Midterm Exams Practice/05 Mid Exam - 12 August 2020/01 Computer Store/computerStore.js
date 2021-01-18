@@ -30,4 +30,3 @@ Total price: ${totalPrice.toFixed(2)}$`)
     }
 }
 
-foo(['special'])

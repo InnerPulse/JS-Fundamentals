@@ -29,6 +29,3 @@ ${field.join(" ")}`)
 
     console.log(field.join(" "))
 }
-
-foo(["15", "0 0 0 0 0"])
-// foo(["20", "0 2 0"])
