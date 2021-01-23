@@ -1,4 +1,5 @@
 <h1 align="center"> JavaScript Fundamentals - September 2020 <h1>
+  <h3 align="center"> Every homework during this semester.<h3>
 <p align="center">
   <a href="https://softuni.bg/trainings/3133/js-fundamentals-september-2020">
     <img src="https://i.imgur.com/arAr8gZ.png" />
