@@ -1,6 +1,4 @@
 function foo(arr) {
-
-    // SPECIALLY FOR THE DUMB DUMB DUMB PEOPLE MAKING US WRITE DUMB CODE TO GET THE 100 POINTS. HERE COMES YOUR DREAM.
     let i = 0
     let vips = []
     let regulars = []
