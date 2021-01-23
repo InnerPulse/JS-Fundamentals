@@ -1,4 +1,3 @@
-<<<<<<< HEAD:07 Associative Arrays/02_OddOccurrences.js
 function foo(arr) {
     const entries = [
         ...arr
@@ -26,4 +25,4 @@ function foo(arr) {
         .map(x => x[0])
         .join(" ")
 }
->>>>>>> 67fe0501e121141605e4d373d81b6af86bc463d4:07 Associative Arrays/02_oddOccurences.js
+
