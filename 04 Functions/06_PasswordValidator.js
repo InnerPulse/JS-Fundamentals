@@ -1,5 +1,4 @@
 function foo(str) {
-    // react much??
 
     const errors = []
     function isValidLength(str) {
