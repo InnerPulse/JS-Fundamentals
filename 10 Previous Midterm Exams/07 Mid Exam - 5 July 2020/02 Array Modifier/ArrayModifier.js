@@ -1,8 +1,8 @@
 function foo(arr) {
     let integers = arr
         .shift()
-        .split(" ")
-        .map(x => Number(x));
+        .split(' ')
+        .map((x) => Number(x));
 
     function swap(i1, i2) {
         const [t1, t2] = [integers[i1], integers[i2]];
@@ -14,18 +14,20 @@ function foo(arr) {
     }
 
     function action(str) {
-        let [command, index1, index2] = str.split(" ").map(x => (isNaN(Number(x)) ? x : Number(x)));
+        let [command, index1, index2] = str
+            .split(' ')
+            .map((x) => (isNaN(Number(x)) ? x : Number(x)));
         const actions = {
             swap: () => swap(index1, index2),
             multiply: () => multiply(index1, index2),
-            decrease: () => (integers = integers.map(x => x - 1)),
+            decrease: () => (integers = integers.map((x) => x - 1)),
             end: () => console.log(integers.join(', ')),
         };
 
         return actions[command]();
     }
 
-    arr.forEach(element => {
+    arr.forEach((element) => {
         action(element);
     });
 }

@@ -1,13 +1,13 @@
 function foo(arr) {
-    arr[1].forEach(x => {
+    arr[1].forEach((x) => {
         let hole = '';
         for (let i = 0; i < x.length; i++) {
-            hole += '_'
+            hole += '_';
         }
-        let expr = `\\b${hole}\\b`
-        let regx = new RegExp(expr, 'm')
-        arr[0] = arr[0].replace(regx, x)
-    })
+        const expr = `\\b${hole}\\b`;
+        const pattern = new RegExp(expr, 'm');
+        arr[0] = arr[0].replace(pattern, x);
+    });
 
-    return arr[0]
+    return arr[0];
 }

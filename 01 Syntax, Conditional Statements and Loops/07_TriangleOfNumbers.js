@@ -1,14 +1,14 @@
 function foo(n) {
     function displayItem(n) {
-        let sequence = []
+        let sequence = [];
         for (let i = 1; i <= n; i++) {
-            sequence.push(n)
+            sequence.push(n);
         }
 
-        return sequence.join(" ")
+        return sequence.join(' ');
     }
 
     for (let i = 1; i <= n; i++) {
-        console.log(displayItem(i))
+        console.log(displayItem(i));
     }
 }

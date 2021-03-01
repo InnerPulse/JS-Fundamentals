@@ -1,5 +1,5 @@
 function foo(arr) {
-    let result = []
+    let result = [];
     const faces = {
         2: 2,
         3: 3,
@@ -14,32 +14,38 @@ function foo(arr) {
         Q: 12,
         K: 13,
         A: 14,
-    }
+    };
     const types = {
         S: 4,
         H: 3,
         D: 2,
         C: 1,
-    }
+    };
 
     arr = arr
-        .map(x => x.split(": "))
+        .map((x) => x.split(': '))
         .reduce((a, v) => {
-            a.get(v[0]) === undefined ? a.set(v[0], v[1]) : a.set(v[0], a.get(v[0]) + ", " + v[1])
-            return a
-        }, new Map())
+            a.get(v[0]) === undefined
+                ? a.set(v[0], v[1])
+                : a.set(v[0], a.get(v[0]) + ', ' + v[1]);
+            return a;
+        }, new Map());
 
     arr.forEach((x, y) => {
-        x = x.split(", ").filter((x1, i, arr) => !arr.slice(i + 1).some(y => y === x1))
-        result.push([y, x])
-    })
-    result.forEach(x => {
+        x = x
+            .split(', ')
+            .filter((x1, i, arr) => !arr.slice(i + 1).some((y) => y === x1));
+        result.push([y, x]);
+    });
+    result.forEach((x) => {
         x[1] = x[1].reduce((a, v) => {
-            const [x, y, z] = v.split("")
-            z === undefined ? (a += faces[x] * types[y]) : (a += faces[x + y] * types[z])
-            return a
-        }, 0)
-    })
+            const [x, y, z] = v.split('');
+            z === undefined
+                ? (a += faces[x] * types[y])
+                : (a += faces[x + y] * types[z]);
+            return a;
+        }, 0);
+    });
 
-    result.forEach(x => console.log(`${x[0]}: ${x[1]}`))
+    result.forEach((x) => console.log(`${x[0]}: ${x[1]}`));
 }

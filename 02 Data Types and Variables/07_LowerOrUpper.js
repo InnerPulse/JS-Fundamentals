@@ -1,3 +1,3 @@
 function foo(x) {
-    return x === x.toUpperCase() ? "upper-case" : "lower-case"
+    return x === x.toUpperCase() ? 'upper-case' : 'lower-case';
 }

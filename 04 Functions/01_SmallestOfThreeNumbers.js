@@ -1,3 +1,3 @@
-function foo (...args) {
-    return Math.min(...args)
+function foo(...args) {
+    return Math.min(...args);
 }

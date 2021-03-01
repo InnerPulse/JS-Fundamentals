@@ -1,3 +1,3 @@
-function foo (...args) {
-    return args.join('')
+function foo(...args) {
+    return args.join('');
 }

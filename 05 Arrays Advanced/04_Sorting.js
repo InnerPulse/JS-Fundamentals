@@ -1,18 +1,18 @@
 function foo(arr) {
-    let sliced = arr.slice()
-    const biggestNums = arr.sort((x, y) => y - x)
-    const lowestNums = sliced.sort((x, y) => x - y)
-    const concatArray = []
+    let sliced = arr.slice();
+    const biggestNumbers = arr.sort((x, y) => y - x);
+    const lowestNumbers = sliced.sort((x, y) => x - y);
+    const concatArray = [];
 
-    biggestNums.forEach((x, i) => {
-        concatArray.push(x)
-        concatArray.push(lowestNums[i])
-    })
+    biggestNumbers.forEach((x, i) => {
+        concatArray.push(x);
+        concatArray.push(lowestNumbers[i]);
+    });
 
     console.log(
         concatArray
             .splice(concatArray.length / 2)
             .reverse()
-            .join(" ")
-    )
+            .join(' ')
+    );
 }
