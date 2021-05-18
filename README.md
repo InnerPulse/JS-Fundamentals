@@ -11,9 +11,9 @@
 
 Basic software technologies, concepts and tools needed by each software developer, such as HTML and CSS, HTTP, databases and web technologies have been studied, Git and GitHub also have been introduced. We dive into the basics of web development as well as one of the most common in practice approach for creating software applications and systems, with which the students successfully build understanding of the upcoming professional modules and the skills they will acquire to become successful software developers.</i></p>
 
-<h3 align="center">About the presented solutions</h3>
+<h3 align="center">About the presented homework</h3>
 
 - Every solution is 100/100 in the university's Judge testing sistem, meaning they were all correct.
 - The difficulties in the different assignments is increasing with the first being easiest and the last being hardest or with other words in ascending order.
-- In a subfolder in every solution's folder, there is the problems description in which for each problem we have a sample input.
+- In a subfolder in every solution's folder, there is it's description.
 - These are simple solutions done with the knowledge I have accumulate so far and of course they can go under further optimization.
